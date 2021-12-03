@@ -34,7 +34,7 @@ struct CelsiusToFahrenheitView: View {
         case 20.5...35:
             return "Its hot outside!"
         default:
-            return "Its really hot outside! Try to stay inside, but if you have to go out, stay in the shade!"
+            return "Its really hot out! Try to stay inside, but if you have to go outside; stay in the shade!"
         }
     }
     
