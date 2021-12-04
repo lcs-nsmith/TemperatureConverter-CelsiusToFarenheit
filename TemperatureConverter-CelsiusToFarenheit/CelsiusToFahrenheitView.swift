@@ -12,7 +12,7 @@ struct CelsiusToFahrenheitView: View {
     @State var temperatureInCelsius: Double = -6.5
     
     var temperatureInFahrenheit: Double {
-        return (temperatureInCelsius * 1.8)+36.0
+        return (temperatureInCelsius * 1.8)+32.0
     }
     
     var vetementSuggestions: String {
