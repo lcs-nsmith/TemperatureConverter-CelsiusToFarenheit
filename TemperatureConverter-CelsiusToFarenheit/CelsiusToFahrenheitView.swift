@@ -19,19 +19,19 @@ struct CelsiusToFahrenheitView: View {
         switch temperatureInCelsius {
         case ...(-50):
             return "Don't go outside, It's too cold!"
-        case -49.5...(-30):
+        case -50...(-30):
             return "Dress as warmly as you possibly can!"
-        case -29.5...(-10):
+        case -30...(-10):
             return "Dress extremely warmly!"
-        case -9.5...0:
+        case -10...0:
             return "Put on a coat!"
-        case 0.5...10:
+        case 0...10:
             return "Wear a sweater or a hoodie!"
-        case 10.5...15:
+        case 10...15:
             return "Its the perfect temperature!"
-        case 15.5...20:
+        case 15...20:
             return "It's t-shirt weather!"
-        case 20.5...35:
+        case 20...35:
             return "Its hot outside!"
         default:
             return "Its really hot out! Try to stay inside, but if you have to go outside; stay in the shade!"
